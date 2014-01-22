@@ -1,4 +1,4 @@
-### RPM external pythia8 180
+### RPM external pythia8 175 
 
 Requires: hepmc
 
@@ -12,10 +12,12 @@ Source: http://cern.ch/service-spi/external/MCGenerators/distribution/%{n}/%{n}-
 %setup -q -n %{n}/%{realversion}
 
 export USRCXXFLAGS="%cms_cxxflags"
-./configure --prefix=%i --enable-shared --with-hepmc=${HEPMC_ROOT}
+export HEPMCLOCATION=${HEPMC_ROOT} 
+export HEPMCVERSION=${HEPMC_VERSION} 
+./configure --enable-shared --with-hepmc=${HEPMC_ROOT}
 
 %build
 make 
 
 %install
-make install
+tar -c lib include xmldoc | tar -x -C %i
