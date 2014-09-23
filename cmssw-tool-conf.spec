@@ -155,7 +155,6 @@ Requires: oracle-toolfile
 # Only for Linux platform.
 %if %islinux
 Requires: igprof-toolfile
-Requires: glibc-toolfile
 %endif
 %endif
 
