@@ -2,6 +2,7 @@ CommonTools/Statistics
 CommonTools/Utils
 CondFormats/L1TObjects
 CondFormats/RPCObjects
+CondFormats/Serialization
 DataFormats/BTauReco
 DataFormats/BeamSpot
 DataFormats/CLHEP
@@ -67,6 +68,7 @@ DataFormats/StdDictionaries
 DataFormats/TauReco
 DataFormats/TrackCandidate
 DataFormats/TrackReco
+DataFormats/TrackerCommon
 DataFormats/TrackerRecHit2D
 DataFormats/TrackingRecHit
 DataFormats/TrajectorySeed
@@ -76,6 +78,7 @@ DataFormats/WrappedStdDictionaries
 FWCore/Common
 FWCore/Concurrency
 FWCore/FWLite
+FWCore/Framework
 FWCore/MessageLogger
 FWCore/ParameterSet
 FWCore/PluginManager
@@ -84,6 +87,7 @@ FWCore/PythonUtilities
 FWCore/RootAutoLibraryLoader
 FWCore/ServiceRegistry
 FWCore/Utilities
+FWCore/Version
 FastSimDataFormats/External
 Fireworks/Calo
 Fireworks/Candidates
@@ -97,14 +101,19 @@ Fireworks/SimData
 Fireworks/TableWidget
 Fireworks/Tracks
 Fireworks/Vertices
+Geometry/CommonDetUnit
+Geometry/GEMGeometry
+Geometry/TrackerGeometryBuilder
 PhysicsTools/FWLite
 PhysicsTools/SelectorUtils
 PhysicsTools/Utilities
+RecoLocalCalo/HcalRecAlgos
 SimDataFormats/CaloHit
 SimDataFormats/CrossingFrame
 SimDataFormats/DigiSimLinks
 SimDataFormats/EncodedEventId
 SimDataFormats/GeneratorProducts
+SimDataFormats/JetMatching
 SimDataFormats/PileupSummaryInfo
 SimDataFormats/RPCDigiSimLink
 SimDataFormats/RandomEngine

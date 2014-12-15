@@ -42,6 +42,7 @@ Requires: sigcpp-toolfile
 Requires: sqlite-toolfile
 Requires: systemtools
 Requires: libuuid-toolfile
+Requires: xerces-c-toolfile
 Requires: xrootd-toolfile
 Requires: xz-toolfile
 Requires: zlib-toolfile
